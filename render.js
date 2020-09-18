@@ -1,9 +1,9 @@
 
 requirejs.config({
   paths: {
-    'ui': 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/232056/art-generator-ui',
-    'svg': 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/232056/art-generator-svg',
-    'svgui': 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/232056/art-generator-svgui',
+    'ui': 'module-ui.js',
+    'svg': 'module-svg.js',
+    'svgui': 'module-svgui.js',
   },
 });
 requirejs(['ui', 'svg', 'svgui'], function(ui, svg, svgui) {
